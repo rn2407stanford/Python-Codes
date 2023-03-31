@@ -1,0 +1,82 @@
+1. Plot a few “neutral” words such as "class", "the", and "teach". What do you see? Now plot a few more
+ "loaded” words (think normative terms) to investigate potential biases in the dataset. Possible examples:
+  "funny", "mean", "fair", "unfair", "genius", or "brilliant". What do you see? Include at least three of
+  the “loaded” words you explored and their corresponding frequencies for men and women for the low, medium,
+   and high buckets in your ethics.txt file.
+
+       I examined all the following words, from the “neutral” words "class", "the", and "teach", from the loaded words
+"funny", "mean", "fair", "unfair", "genius", and "brilliant". Examining neutral words I see that there are still
+differences in, for example, for the men reviews more "the" is used than for women reviews. Which to me does not
+ really make a lot of sense. Which to me shows that there might be bias in interpreting non-neutral words,
+ as we might think the frequency makes sense, where it does not.
+      While examining loaded words, I still see differences, which again might be real difference, but also might not.
+      There are lots of subjectivity involved in normative language.
+
+2. Based on the definitions of fairness presented in class, under what conditions (that could be observed
+from a dataset like this) would it be unfair for a university to use either the ratings or the prevalence
+of particular words (such as brilliant or genius) as a factor in decisions to hire, tenure, or fire professors?
+ Assume the universities are using end-of-term student evaluations written by their own students, which might
+  have different distributions.
+
+    It will be unfair to hire, give tenure or fire solely based on this information as there might be many type
+    of biases based on the people gender, ethnicity, etc.
+    To me it is not entirely unfair as there are no other alternative solution that are perfectly fair. So, I think
+    it should be only one small piece of making judgement. However, it is worthwhile to note that some students who are
+    upset on their grades or have bias against some part of the professor's identity might give professors low
+    rate. Moreover, not all the students might rate so, the results might show the opinion of the subset of people who
+    are angry on the professor. Finally, one very knowledgeable professor might get low rating solely based on his bad
+    communication skills. Another unknowledgeable professor might get high rate based on his excellent communication
+    skills. So the rating might not reveal the real skills but the way the professor communicates with the students.
+
+
+3. What kind of information do the subjects represented in a dataset (in this case, professors) deserve to
+know about the trends in the data? How could you as the programmer provide this information?
+
+I would design a website that professors can use to find the word frequences based on the gander of the professor.
+I think when the professors became aware about these biases, they might take further steps to address it more
+successfully. But they should also become aware about where are these rating coming from.
+
+
+4. In this assignment, we asked you, “does a professor's gender influence the language people use to
+describe them?” That is an important question, and we haven’t given you the right kind of data to fully
+ answer it: the dataset presents a binary classification of gender based on students’ beliefs as to the
+ gender of the professor. There are some people in the dataset whose gender is misdescribed, and others,
+ such as non-binary people, who do not have a category that fits them at all. If you could design the ratings
+  website, how might you address this problem?
+
+I think there will always be the misdescriptions as we cannot find the exact gender/sex of the professors. Hence, I
+would add a note under the graphs explaining that Women(Men) categories are classified based on researchers opinions.
+So, that the reader knows that there might be lots of misclassifications involved while interpreting the resulting bar
+graphs.
+
+5. In 106A, we create clearly-defined assignments for you to work on; we tell you what to do at each step
+and what counts as success at the end. In other words, we are formulating problems for you to solve. As we
+discussed in class, problem formulation is one of the ways in which you embed values in your work as a
+computer scientist. Formulate a different problem related to the topic of professor evaluation or visualization
+ of patterns in language use, ideally one you could solve with your current skills. Explain what values are
+ being embedded in this problem formulation, and who this problem is being solved for.
+
+    I have two design ideas in my mind.
+    1) Rate my Professor also provides information about the department of the professor (e.g. music department).
+    I would separate the words into negative, positive and neutral. Then I will plot for males and females bars.
+    So the person who searches lets say "py biasbarsgraph.py music" will see whether the students are using negative or
+     positive language based on the gender. There is actually a study about that. E.g. in STEM field women tend to be
+     perceived more negatively.
+     The explicit values embedded for this problem is to find how students evaluate based on which domain there are
+     coming from so to identify possible domain specific biases and stereotypes. This will help to work on addressing
+     and reducing the possible biases.
+
+    2) Another idea can be to classify professors surnames based on their origin. E.g. Solano-Flores might be more
+    Spanish origin, Drezner might be Jewish origin, Williams might be US origin etc. and then consider non-identified
+    for the surnames whose origins are questionable. And then see how it impacts for each word frequency. There is also
+    such research that shows international professors tend to be undervalued. Even though, this will not show the
+    international status, but still will reveal if there are bias against people in certain group.
+    The values embedded is to find the stereotypes based on the origin of the people (which we assumed might be encoded
+    in their surnames) so identify stereotype biases. However, there might be lots of misclassifcations that should be
+    taken in consideration while interpreting the results.
+
+
+
+
+
+
